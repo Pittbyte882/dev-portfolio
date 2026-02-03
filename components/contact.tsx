@@ -16,13 +16,26 @@ export function Contact() {
     e.preventDefault()
     setStatus('sending')
     
-    // Simulate sending (replace with your actual email service)
-    setTimeout(() => {
+      try {
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
+    })
+    
+    if (response.ok) {
       setStatus('success')
       setFormData({ name: '', email: '', message: '' })
       setTimeout(() => setStatus('idle'), 3000)
-    }, 1500)
+    } else {
+      setStatus('error')
+      setTimeout(() => setStatus('idle'), 3000)
+    }
+  } catch (error) {
+    setStatus('error')
+    setTimeout(() => setStatus('idle'), 3000)
   }
+}
 
   return (
     <section id="contact" className="py-20 relative">
