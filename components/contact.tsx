@@ -67,13 +67,13 @@ export function Contact() {
                   </div>
                 </a>
 
-                <a href="tel:+1234567890" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors">
+                <a href="tel:+19514348093" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors">
                   <div className="w-12 h-12 bg-slate-900 border border-cyan-500/20 rounded-lg flex items-center justify-center">
                     <Phone className="h-5 w-5" />
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">Phone</p>
-                    <p className="font-semibold">+1 951-434-8093</p>
+                    <p className="font-semibold">+1 (951) 434-8093</p>
                   </div>
                 </a>
 
@@ -90,16 +90,17 @@ export function Contact() {
 
               {/* Social Links */}
               <div className="flex gap-4 pt-6 border-t border-slate-800">
-                <a
+                {/* 
                   href="https://github.com/yourusername"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-slate-900 border border-cyan-500/20 rounded-lg flex items-center justify-center text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 transition-all"
                 >
                   <Github className="h-5 w-5" />
-                </a>
+                </a> */}
+                
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://linkedin.com/in/crystal-pittman-415208b5"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-slate-900 border border-cyan-500/20 rounded-lg flex items-center justify-center text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 transition-all"

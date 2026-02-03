@@ -59,13 +59,13 @@ export function Navigation() {
 
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400 transition-colors">
+            {/* <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400 transition-colors">
               <Github className="h-5 w-5" />
-            </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400 transition-colors">
+            </a> */}
+            <a href="https://linkedin.com/in/crystal-pittman-415208b5" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400 transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="mailto:[email protected]" className="text-slate-300 hover:text-cyan-400 transition-colors">
+            <a href="mailto:pittbyte82@gmail.com" className="text-slate-300 hover:text-cyan-400 transition-colors">
               <Mail className="h-5 w-5" />
             </a>
           </div>
@@ -101,13 +101,13 @@ export function Navigation() {
                 </a>
               ))}
               <div className="flex space-x-4 pt-4 border-t border-slate-800">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400">
+                {/* <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400">
                   <Github className="h-5 w-5" />
-                </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400">
+                </a> */}
+                <a href="https://linkedin.com/in/crystal-pittman-415208b5" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400">
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="mailto:[email protected]" className="text-slate-300 hover:text-cyan-400">
+                <a href="mailto:pittbyte82@gmail.com" className="text-slate-300 hover:text-cyan-400">
                   <Mail className="h-5 w-5" />
                 </a>
               </div>
